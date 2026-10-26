@@ -113,6 +113,8 @@ kelvin@github:~$ cat about.json
 
 <p align="center">
   <a href="https://github.com/kelvinkiumbe1"><img src="https://img.shields.io/badge/GitHub-kelvinkiumbe1-00ff9c?style=for-the-badge&logo=github&logoColor=00ff9c&labelColor=0d1117" /></a>
+  <a href="https://www.linkedin.com/in/kelvinkiumbe"><img src="https://img.shields.io/badge/LinkedIn-kelvinkiumbe-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117" /></a>
+  <a href="https://x.com/greatkiumbes"><img src="https://img.shields.io/badge/X-@greatkiumbes-ffffff?style=for-the-badge&logo=x&logoColor=white&labelColor=0d1117" /></a>
 </p>
 
 <p align="center">
