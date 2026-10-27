@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="230" viewBox="0 0 420 230" font-family="'JetBrains Mono','Fira Code',Consolas,Menlo,'DejaVu Sans Mono',monospace">
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00ff9c"/>
+      <stop offset="1" stop-color="#58a6ff"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="418" height="228" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <!-- running light around the border -->
+  <rect x="1" y="1" width="418" height="228" rx="12" fill="none" stroke="url(#edge)" stroke-width="2" stroke-dasharray="120 1170" pathLength="1290">
+    <animate attributeName="stroke-dashoffset" from="1290" to="0" dur="5s" repeatCount="indefinite"/>
+  </rect>
+  <text x="24" y="40" fill="#8b949e" font-size="12">~/projects/</text>
+  <text x="24" y="70" fill="#00ff9c" font-size="24" font-weight="700">mindspace</text>
+  <circle cx="392" cy="30" r="5" fill="#00ff9c"><animate attributeName="opacity" values="1;.25;1" dur="2s" repeatCount="indefinite"/></circle>
+  <text fill="#c9d1d9" font-size="13">
+    <tspan x="24" y="104">Backend for MindSpace, a mental-wellness</tspan>
+    <tspan x="24" y="124">platform with therapist, admin and</tspan>
+    <tspan x="24" y="144">landing-page apps.</tspan>
+  </text>
+  <g font-size="11" font-weight="700">
+    <rect x="24" y="178" width="58" height="24" rx="12" fill="#b07219" fill-opacity="0.18" stroke="#b07219"/>
+    <text x="53" y="194" text-anchor="middle" fill="#f0a35e">Java</text>
+    <rect x="90" y="178" width="98" height="24" rx="12" fill="#6db33f" fill-opacity="0.18" stroke="#6db33f"/>
+    <text x="139" y="194" text-anchor="middle" fill="#8fd16a">Spring Boot</text>
+    <rect x="196" y="178" width="76" height="24" rx="12" fill="#58a6ff" fill-opacity="0.18" stroke="#58a6ff"/>
+    <text x="234" y="194" text-anchor="middle" fill="#79b8ff">REST API</text>
+  </g>
+</svg>

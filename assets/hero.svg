@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430" font-family="'JetBrains Mono','Fira Code',Consolas,Menlo,'DejaVu Sans Mono',monospace" font-size="15">
+  <!-- Animated terminal hero for github.com/kelvinkiumbe1. One 18s loop, pure SMIL so it plays inside <img>. -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1015"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00ff9c" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00ff9c" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#00ff9c" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="sweep" cx="0" cy="0" r="1">
+      <stop offset="0" stop-color="#00ff9c" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#00ff9c" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="screen"><rect x="1" y="1" width="898" height="428" rx="12"/></clipPath>
+
+    <clipPath id="c1"><rect x="20" y="60" height="28" width="0"><animate attributeName="width" dur="18s" repeatCount="indefinite" values="0;0;127;330;330;0;0" keyTimes="0;.0278;.0279;.1111;.97;.9701;1"/></rect></clipPath>
+    <clipPath id="c3"><rect x="20" y="120" height="28" width="0"><animate attributeName="width" dur="18s" repeatCount="indefinite" values="0;0;127;192;192;0;0" keyTimes="0;.1667;.1668;.2;.97;.9701;1"/></rect></clipPath>
+    <clipPath id="c5"><rect x="20" y="180" height="28" width="0"><animate attributeName="width" dur="18s" repeatCount="indefinite" values="0;0;127;256;256;0;0" keyTimes="0;.2556;.2557;.3;.97;.9701;1"/></rect></clipPath>
+    <clipPath id="c7"><rect x="20" y="240" height="28" width="0"><animate attributeName="width" dur="18s" repeatCount="indefinite" values="0;0;127;374;374;0;0" keyTimes="0;.3556;.3557;.4444;.97;.9701;1"/></rect></clipPath>
+    <clipPath id="c12"><rect x="20" y="372" height="28" width="0"><animate attributeName="width" dur="18s" repeatCount="indefinite" values="0;0;127;465;465;0;0" keyTimes="0;.5556;.5557;.6667;.97;.9701;1"/></rect></clipPath>
+  </defs>
+
+  <g clip-path="url(#screen)">
+    <rect width="900" height="430" fill="url(#bg)"/>
+
+    <!-- faint grid -->
+    <g stroke="#00ff9c" stroke-opacity="0.035">
+      <path d="M0 80H900M0 130H900M0 180H900M0 230H900M0 280H900M0 330H900M0 380H900"/>
+      <path d="M100 40V430M200 40V430M300 40V430M400 40V430M500 40V430M600 40V430M700 40V430M800 40V430"/>
+    </g>
+
+    <!-- title bar -->
+    <rect width="900" height="40" fill="#161b22"/>
+    <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
+    <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
+    <circle cx="62" cy="20" r="6" fill="#27c93f"/>
+    <text x="450" y="25" text-anchor="middle" fill="#8b949e" font-size="13">kelvin@sec: ~ — zsh — 120×32</text>
+    <text x="880" y="25" text-anchor="end" fill="#00ff9c" font-size="12">● SECURE</text>
+
+    <!-- 1: ssh -->
+    <text x="28" y="80" clip-path="url(#c1)"><tspan fill="#00ff9c">kelvin@sec:~$ </tspan><tspan fill="#e6edf3">ssh kelvin@github.com</tspan></text>
+    <text x="28" y="106" fill="#8b949e" opacity="0"><tspan fill="#00ff9c">[  OK  ]</tspan> secure channel established · key verified · AES-256-GCM
+      <animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;.1278;.97"/></text>
+
+    <!-- 2: whoami -->
+    <text x="28" y="140" clip-path="url(#c3)"><tspan fill="#00ff9c">kelvin@sec:~$ </tspan><tspan fill="#e6edf3">whoami</tspan></text>
+    <text x="28" y="166" opacity="0" font-weight="700"><tspan fill="#ffffff">Kelvin Kiumbe</tspan><tspan fill="#8b949e" font-weight="400"> — </tspan><tspan fill="#58a6ff">Backend Engineer</tspan><tspan fill="#8b949e" font-weight="400"> · </tspan><tspan fill="#ff7b72">Security Enthusiast</tspan>
+      <animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;.2167;.97"/></text>
+
+    <!-- 3: stack -->
+    <text x="28" y="200" clip-path="url(#c5)"><tspan fill="#00ff9c">kelvin@sec:~$ </tspan><tspan fill="#e6edf3">cat stack.txt</tspan></text>
+    <text x="28" y="226" fill="#d2a8ff" opacity="0">java · spring-boot · postgresql · react-native · c · c++ · js
+      <animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;.3167;.97"/></text>
+
+    <!-- 4: nmap -->
+    <text x="28" y="260" clip-path="url(#c7)"><tspan fill="#00ff9c">kelvin@sec:~$ </tspan><tspan fill="#e6edf3">nmap -sV kelvin --learning</tspan></text>
+    <g xml:space="preserve">
+      <text x="28" y="286" fill="#8b949e" opacity="0">PORT      STATE  SERVICE
+        <animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;.4611;.97"/></text>
+      <text x="28" y="310" fill="#e6edf3" opacity="0">2375/tcp  <tspan fill="#00ff9c">open</tspan>   docker
+        <animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;.4778;.97"/></text>
+      <text x="28" y="334" fill="#e6edf3" opacity="0">6443/tcp  <tspan fill="#00ff9c">open</tspan>   kubernetes
+        <animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;.4944;.97"/></text>
+      <text x="28" y="358" fill="#e6edf3" opacity="0">443/tcp   <tspan fill="#00ff9c">open</tspan>   ci-cd-pipelines
+        <animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;.5111;.97"/></text>
+    </g>
+
+    <!-- 5: motto + cursor -->
+    <text x="28" y="392" clip-path="url(#c12)"><tspan fill="#00ff9c">kelvin@sec:~$ </tspan><tspan fill="#e6edf3">echo </tspan><tspan fill="#ffa657">"Build it. Secure it. Ship it."</tspan></text>
+    <g opacity="0">
+      <animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;.6667;.97"/>
+      <rect x="486" y="378" width="9" height="18" fill="#00ff9c">
+        <animate attributeName="opacity" dur="1s" repeatCount="indefinite" calcMode="discrete" values="1;0" keyTimes="0;.5"/>
+      </rect>
+    </g>
+
+    <!-- radar -->
+    <g transform="translate(745 235)">
+      <circle r="115" fill="#00ff9c" fill-opacity="0.02" stroke="#00ff9c" stroke-opacity="0.35"/>
+      <circle r="80" fill="none" stroke="#00ff9c" stroke-opacity="0.22"/>
+      <circle r="45" fill="none" stroke="#00ff9c" stroke-opacity="0.18"/>
+      <path d="M-115 0H115M0 -115V115" stroke="#00ff9c" stroke-opacity="0.15"/>
+      <g>
+        <path d="M0 0L115 0A115 115 0 0 0 81.3 -81.3Z" fill="url(#sweep)"/>
+        <line x1="0" y1="0" x2="115" y2="0" stroke="#00ff9c" stroke-width="2" filter="url(#glow)"/>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4s" repeatCount="indefinite"/>
+      </g>
+      <g fill="#00ff9c" filter="url(#glow)">
+        <circle cx="52" cy="-38" r="4"><animate attributeName="opacity" values="0;1;0.15" dur="4s" begin="0.4s" repeatCount="indefinite"/></circle>
+        <circle cx="-64" cy="-58" r="3.5"><animate attributeName="opacity" values="0;1;0.15" dur="4s" begin="1.3s" repeatCount="indefinite"/></circle>
+        <circle cx="-30" cy="70" r="4"><animate attributeName="opacity" values="0;1;0.15" dur="4s" begin="2.3s" repeatCount="indefinite"/></circle>
+        <circle cx="78" cy="48" r="3"><animate attributeName="opacity" values="0;1;0.15" dur="4s" begin="3.2s" repeatCount="indefinite"/></circle>
+      </g>
+      <circle r="4" fill="#00ff9c"/>
+      <text y="142" text-anchor="middle" fill="#8b949e" font-size="12">THREAT SCAN · <tspan fill="#00ff9c">0 VULNS</tspan></text>
+    </g>
+
+    <!-- CRT scanline -->
+    <rect x="0" y="-80" width="900" height="80" fill="url(#scan)">
+      <animate attributeName="y" from="-80" to="430" dur="6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <rect x="0.5" y="0.5" width="899" height="429" rx="12" fill="none" stroke="#30363d"/>
+</svg>
