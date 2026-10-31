@@ -84,12 +84,12 @@ motto: "Build it. Secure it. Ship it."
 <br/>
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#5](https://github.com/kelvinkiumbe1/badges-demo/pull/5) in [kelvinkiumbe1/badges-demo](https://github.com/kelvinkiumbe1/badges-demo)
-2. 🎉 Merged PR [#6](https://github.com/kelvinkiumbe1/badges-demo/pull/6) in [kelvinkiumbe1/badges-demo](https://github.com/kelvinkiumbe1/badges-demo)
-3. 🎉 Merged PR [#14](https://github.com/kelvinkiumbe1/badges-demo/pull/14) in [kelvinkiumbe1/badges-demo](https://github.com/kelvinkiumbe1/badges-demo)
-4. 🎉 Merged PR [#10](https://github.com/kelvinkiumbe1/badges-demo/pull/10) in [kelvinkiumbe1/badges-demo](https://github.com/kelvinkiumbe1/badges-demo)
-5. 🎉 Merged PR [#1](https://github.com/kelvinkiumbe1/badges-demo/pull/1) in [kelvinkiumbe1/badges-demo](https://github.com/kelvinkiumbe1/badges-demo)
-6. 🎉 Merged PR [#18](https://github.com/kelvinkiumbe1/badges-demo/pull/18) in [kelvinkiumbe1/badges-demo](https://github.com/kelvinkiumbe1/badges-demo)
+1. 💪 Opened PR [#1](https://github.com/kelvinkiumbe1/dating-app/pull/1) in [kelvinkiumbe1/dating-app](https://github.com/kelvinkiumbe1/dating-app)
+2. 🎉 Merged PR [#5](https://github.com/kelvinkiumbe1/badges-demo/pull/5) in [kelvinkiumbe1/badges-demo](https://github.com/kelvinkiumbe1/badges-demo)
+3. 🎉 Merged PR [#6](https://github.com/kelvinkiumbe1/badges-demo/pull/6) in [kelvinkiumbe1/badges-demo](https://github.com/kelvinkiumbe1/badges-demo)
+4. 🎉 Merged PR [#14](https://github.com/kelvinkiumbe1/badges-demo/pull/14) in [kelvinkiumbe1/badges-demo](https://github.com/kelvinkiumbe1/badges-demo)
+5. 🎉 Merged PR [#10](https://github.com/kelvinkiumbe1/badges-demo/pull/10) in [kelvinkiumbe1/badges-demo](https://github.com/kelvinkiumbe1/badges-demo)
+6. 🎉 Merged PR [#1](https://github.com/kelvinkiumbe1/badges-demo/pull/1) in [kelvinkiumbe1/badges-demo](https://github.com/kelvinkiumbe1/badges-demo)
 <!--END_SECTION:activity-->
 
 </details>
